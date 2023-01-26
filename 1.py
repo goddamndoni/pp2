@@ -1,10 +1,7 @@
-from math import prod
 from random import randrange
-
 a = int(input())
-d = int(input())
 l = [0]*a
 for i in range(a):
-    l[i] = a*pow(d,i)
+    l[i] = randrange(10)
 print(l)
-#pp2 best course
+#Danabek Raimkhanov 
